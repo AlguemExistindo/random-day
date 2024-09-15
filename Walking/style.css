@@ -1,0 +1,37 @@
+body {
+    background-color: darkslateblue;
+    color: antiquewhite;
+    font-family: "Averia Serif Libre", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    margin: 0;
+}
+
+button {
+    background-color: burlywood;
+    color: brown;
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-size: large;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.step {
+    display: none;
+}
+
+.step.this{
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 40%;
+}
